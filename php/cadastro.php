@@ -2,9 +2,9 @@
 
 include("conexao.php");
 
-$nome=$_POST["nome"];
-$email=$_POST["email"];
-$senha=$_POST["senha"];
+$nome = $_POST["nome"];
+$email = $_POST["email"];
+$senha = $_POST["senha"];
 
 $sql = "INSERT INTO informacoes(nome, email, senha)
     VALUES('$nome', '$email', '$senha')";
