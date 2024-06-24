@@ -10,7 +10,7 @@ $sql = "INSERT INTO informacoes(nome, email, senha)
     VALUES('$nome', '$email', '$senha')";
 
 if($conexao->query($sql) == TRUE){
-    echo "<br>Novo registro criado com sucesso";
+    echo "<br><center><h1>Novo registro criado com sucesso</h1>";
 }
 else{
     echo "Error:" . $sql . "<br>" . $conexao->error;
